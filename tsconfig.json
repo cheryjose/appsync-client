@@ -1,0 +1,16 @@
+{
+    "compilerOptions": 
+    {
+      "target": "es2016",
+      "outDir": "./dist",
+      "module": "commonjs",
+      "jsx": "react",
+      "moduleResolution": "node",
+      "lib": [ "es2015", "dom",  "es5" ],
+      "importHelpers": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+  }
